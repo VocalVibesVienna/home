@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocal Vibes of Vienna | Premium Karaoke & Audio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .brand-gradient { background: linear-gradient(135deg, #0A3955 0%, #312e81 100%); }
+        .pink-accent { color: #FC47A8; } /* Vibrant Pink from logo */
+        .btn-pink { background-color: #FC47A8; color: white; transition: all 0.3s; }
+        .btn-pink:hover { background-color: #e11d48; transform: translateY(-2px); }
+        .swiper { width: 100%; height: 400px; border-radius: 1rem; }
+        .swiper-slide img { width: 100%; height: 100%; object-fit: cover; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="fixed w-full z-50">
+        <div class="bg-[#0A3955] text-white py-2 px-6 border-b border-white/10">
+            <div class="max-w-7xl mx-auto flex justify-between items-center">
+                <div class="flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.15em]">
+                    <span class="flex items-center gap-1.5">
+                        <svg class="w-3 h-3 text-[#FC47A8]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                        Vienna, VA
+                    </span>
+                    <span class="hidden sm:inline opacity-30">|</span>
+                    <a href="tel:7035550123" class="hover:text-[#FC47A8] transition">703.555.0123</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="https://facebook.com/vocalvibesvienna" target="_blank" class="hover:text-[#FC47A8] transition-colors">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/vocalvibesofvienna" target="_blank" class="hover:text-[#FC47A8] transition-colors">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="https://tiktok.com/@vocalvibesvienna" target="_blank" class="hover:text-[#FC47A8] transition-colors">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.9-.23-2.74.28-.73.44-1.22 1.18-1.35 2.01-.15 1.04.22 2.13.94 2.91.76.83 1.91 1.25 3.02 1.11 1.15-.09 2.22-.73 2.82-1.72.32-.59.44-1.27.45-1.94-.03-3.83-.02-7.66-.01-11.49z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm relative">
+            <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <img src="logo.png" alt="Vocal Vibes Logo" class="h-16 w-auto">
+                    <span class="text-xl font-extrabold tracking-tight text-indigo-950 hidden sm:block">VOCAL VIBES</span>
+                </div>
+                
+                <div class="hidden lg:flex gap-6 items-center font-semibold text-sm uppercase tracking-wider text-indigo-950">
+                    <a href="#karaoke" class="hover:text-pink-500 transition">Karaoke</a>
+                    <a href="#audio" class="hover:text-pink-500 transition">Audio</a>
+                    <a href="#deejay" class="hover:text-pink-500 transition">DJ/Music</a>
+                    <a href="#about" class="hover:text-pink-500 transition">About Us</a>
+                    <a href="#contact" class="btn-pink px-6 py-2 rounded-full text-white">Book Now</a>
+                </div>
+
+                <button id="menu-btn" class="lg:hidden text-indigo-950 focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 px-6 py-6 space-y-4 shadow-xl">
+                <a href="#karaoke" class="block font-bold text-indigo-950 uppercase tracking-wide">Karaoke</a>
+                <a href="#audio" class="block font-bold text-indigo-950 uppercase tracking-wide">Audio</a>
+                <a href="#deejay" class="block font-bold text-indigo-950 uppercase tracking-wide">DJ/Music</a>
+                <a href="#about" class="block font-bold text-indigo-950 uppercase tracking-wide">About Us</a>
+                <a href="#contact" class="block btn-pink px-6 py-3 rounded-xl text-center font-bold">Book Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close menu when a link is clicked
+        const links = menu.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+    </script>
+
+    <header class="pt-32 pb-16 brand-gradient text-white px-6">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                    White-Glove <span class="pink-accent">Karaoke</span> for Vienna.
+                </h1>
+                <p class="text-xl text-indigo-100 mb-8 leading-relaxed">
+                    Professional sound, lighting, and 50,000+ hits delivered, set up, and hosted for you. 
+                </p>
+                <div class="flex gap-4">
+                    <a href="#karaoke" class="btn-pink px-8 py-4 rounded-xl font-bold text-lg">View Pricing</a>
+                    <a href="#audio" class="bg-white/10 backdrop-blur-md border border-white/20 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/20 transition">Audio Only</a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="swiper mySwiper shadow-2xl shadow-black/50">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="Karaoke1.png" alt="Karaoke Setup 1" class="rounded-xl"></div>
+                        <div class="swiper-slide"><img src="Karaoke2.png" alt="Karaoke Setup 2" class="rounded-xl"></div>
+                        <div class="swiper-slide"><img src="Karaoke3.png" alt="Audio Equipment" class="rounded-xl"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next" style="color: #fff"></div>
+                    <div class="swiper-button-prev" style="color: #fff"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="karaoke" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="mb-16">
+            <h2 class="text-4xl font-extrabold text-indigo-950">Full-Service Karaoke Packages</h2>
+            <p class="text-gray-500 mt-2 text-lg">Comprehensive setups including 2 PA Speakers, Mixer, 2 Mics, 52" Display with stand, KaraFun software, and Lighting.</p>
+        </div>
+
+        <div class="grid md:grid-cols-4 gap-6">
+            <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:border-pink-200 transition">
+                <h3 class="font-bold text-gray-400 uppercase text-xs tracking-widest mb-4">2 Hour Minimum</h3>
+                <div class="text-4xl font-extrabold mb-2">$255</div>
+                <ul class="text-sm text-gray-600 space-y-3 mt-6">
+                    <li>✓ Professional Setup</li>
+                    <li>✓ $65/hr Rate</li>
+                    <li>✓ 50k Song Library</li>
+                </ul>
+            </div>
+
+            <div class="bg-indigo-700 p-8 rounded-2xl shadow-xl transform scale-105 border-2 border-pink-500 relative">
+                <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-pink-500 text-white text-[10px] font-black py-1 px-4 rounded-full uppercase tracking-tighter">Most Popular</span>
+                <h3 class="font-bold text-pink-400 uppercase text-xs tracking-widest mb-4">3 Hour Party</h3>
+                <div class="text-4xl font-extrabold mb-2 text-white">$305</div>
+                <ul class="text-sm text-indigo-100 space-y-3 mt-6">
+                    <li>✓ White-Glove Service</li>
+                    <li>✓ $60/hr Rate</li>
+                    <li>✓ Perfect for Birthdays</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:border-pink-200 transition">
+                <h3 class="font-bold text-gray-400 uppercase text-xs tracking-widest mb-4">4 Hour Event</h3>
+                <div class="text-4xl font-extrabold mb-2">$345</div>
+                <ul class="text-sm text-gray-600 space-y-3 mt-6">
+                    <li>✓ Full Night Sound</li>
+                    <li>✓ $55/hr Rate</li>
+                    <li>✓ MC Add-on Available</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:border-pink-200 transition">
+                <h3 class="font-bold text-gray-400 uppercase text-xs tracking-widest mb-4">5+ Hours</h3>
+                <div class="text-4xl font-extrabold mb-2">$375+</div>
+                <ul class="text-sm text-gray-600 space-y-3 mt-6">
+                    <li>✓ Large Venue Support</li>
+                    <li>✓ $50/hr Rate</li>
+                    <li>✓ Custom Consultation</li>
+                </ul>
+            </div>
+        </div>
+        <p class="mt-12 p-4 bg-gray-100 rounded-lg text-sm text-center text-gray-600">
+            <strong>Note:</strong> A one-time $125 delivery, setup, and teardown fee is included in all prices above.
+        </p>
+    </section>
+
+   <section id="audio" class="py-24 bg-white px-6">
+    <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h2 class="text-4xl font-extrabold text-indigo-950">Audio Equipment Rentals</h2>
+                <p class="text-gray-500 mt-2 text-lg">Professional-grade sound for when you want to be your own DJ or host.</p>
+            </div>
+            <div class="mt-4 md:mt-0 space-x-2">
+                <span class="bg-indigo-100 text-indigo-600 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Self-Service Available</span>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-gray-50 p-8 rounded-3xl border border-gray-200 hover:border-indigo-300 transition group">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h3 class="text-2xl font-bold text-indigo-900 italic">Solo Professional Setup</h3>
+                        <p class="text-pink-500 font-semibold text-sm uppercase mt-1">Ideal for: Corporate Speeches & Intimate Gatherings</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-4 text-lg mb-8">
+                    <div class="flex justify-between border-b border-gray-200 pb-2 text-gray-600">
+                        <span>Short Term (1-6 Hours)</span>
+                        <span class="font-bold text-indigo-900">$80</span>
+                    </div>
+                    <div class="flex justify-between border-b border-gray-200 pb-2 text-gray-600">
+                        <span>Full Day (Up to 24 Hours)</span>
+                        <span class="font-bold text-indigo-900">$130</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+                    <p class="text-xs font-bold text-gray-400 uppercase mb-3 tracking-widest">What's Included:</p>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li class="flex items-center gap-2 font-medium text-indigo-900">• 1 Premium PA Speaker (1000W)</li>
+                        <li class="flex items-center gap-2">• 1 Professional Wired Microphone</li>
+                        <li class="flex items-center gap-2">• 1 Adjustable Tripod Speaker Stand</li>
+                        <li class="flex items-center gap-2">• All Power & XLR Audio Cables</li>
+                    </ul>
+                </div>
+                
+                <p class="mt-6 text-sm text-gray-500 italic">Best for: Small corporate meetings, wedding ceremonies, or backyard announcements.</p>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-3xl border border-gray-200 hover:border-pink-300 transition group">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h3 class="text-2xl font-bold text-indigo-900 italic">Duo Performance Setup</h3>
+                        <p class="text-pink-500 font-semibold text-sm uppercase mt-1">Ideal for: "DJ Your Own Party" & Large Private Events</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-4 text-lg mb-8">
+                    <div class="flex justify-between border-b border-gray-200 pb-2 text-gray-600">
+                        <span>Short Term (1-6 Hours)</span>
+                        <span class="font-bold text-indigo-900">$140</span>
+                    </div>
+                    <div class="flex justify-between border-b border-gray-200 pb-2 text-gray-600">
+                        <span>Full Day (Up to 24 Hours)</span>
+                        <span class="font-bold text-indigo-900">$210</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+                    <p class="text-xs font-bold text-gray-400 uppercase mb-3 tracking-widest">What's Included:</p>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li class="flex items-center gap-2 font-medium text-indigo-900">• 2 Premium PA Speakers (2000W Total)</li>
+                        <li class="flex items-center gap-2">• 2 Professional Wired Microphones</li>
+                        <li class="flex items-center gap-2">• 2 Adjustable Tripod Speaker Stands</li>
+                        <li class="flex items-center gap-2">• Compact Audio Mixer (Phone/Laptop Ready)</li>
+                    </ul>
+                </div>
+                
+                <p class="mt-6 text-sm text-gray-500 italic">Best for: House parties, corporate galas, and events where you want to control the playlist.</p>
+            </div>
+        </div>
+
+        <div class="mt-12 bg-indigo-950 rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between text-white shadow-lg">
+            <div class="flex items-center gap-4 mb-4 md:mb-0">
+                <div class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center font-bold">!</div>
+                <div>
+                    <p class="font-bold text-lg">Pickup or White-Glove Service?</p>
+                    <p class="text-indigo-200 text-sm italic underline">Standard rates are for customer pickup in Vienna, VA.</p>
+                </div>
+            </div>
+            <div class="text-right">
+                <p class="text-sm text-indigo-200">Optional Delivery & Setup:</p>
+                <p class="text-2xl font-extrabold text-pink-400">+$75.00</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <section id="deejay" class="py-24 bg-indigo-50 px-6">
+    <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h2 class="text-4xl font-extrabold text-indigo-950">Professional DJ & Music Services</h2>
+                <p class="text-gray-500 mt-2 text-lg">Expert mixing, premium sound, and a curated library for high-end events.</p>
+            </div>
+            <div class="mt-4 md:mt-0">
+                <span class="bg-pink-100 text-pink-600 px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest">
+                    Vibe Curator Included
+                </span>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-3xl shadow-sm border border-indigo-100 hover:shadow-md transition">
+                <h3 class="text-2xl font-bold mb-2 pink-accent italic">The Signature Set</h3>
+                <p class="text-sm text-gray-500 mb-6">Perfect for weddings, corporate galas, and private celebrations.</p>
+                
+                <div class="space-y-4 text-lg">
+                    <div class="flex justify-between border-b pb-2 text-gray-600">
+                        <span>Standard Rate (3-hr Min)</span>
+                        <span class="font-bold text-indigo-900">$175/hr</span>
+                    </div>
+                    <div class="flex justify-between border-b pb-2 text-gray-600">
+                        <span>Extended Set (5+ hrs)</span>
+                        <span class="font-bold text-indigo-900">$150/hr</span>
+                    </div>
+                    <div class="flex justify-between border-b pb-2 text-gray-600">
+                        <span>Setup & Logistics Fee</span>
+                        <span class="font-bold text-indigo-900">$125</span>
+                    </div>
+                </div>
+
+                <ul class="mt-8 space-y-3 text-sm text-gray-600">
+                    <li class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Professional DJ Controller & Mixing Console
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Dual 15" Premium PA Speakers + Subwoofer
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Unlimited Music Library (All Genres)
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl shadow-sm border-2 border-pink-200 hover:shadow-md transition relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-pink-500 text-white text-[10px] px-4 py-1 font-bold uppercase rotate-45 translate-x-8 translate-y-3">
+                    Premium
+                </div>
+                <h3 class="text-2xl font-bold mb-2 pink-accent italic">The Ultimate Hybrid</h3>
+                <p class="text-sm text-gray-500 mb-6">Seamlessly switch between DJ sets and Karaoke performance.</p>
+                
+                <div class="space-y-4 text-lg">
+                    <div class="flex justify-between border-b pb-2 text-gray-600">
+                        <span>Hourly Rate</span>
+                        <span class="font-bold text-indigo-900">$200/hr</span>
+                    </div>
+                    <div class="flex justify-between border-b pb-2 text-gray-600">
+                        <span>Standard 4-hr Booking</span>
+                        <span class="font-bold text-indigo-900">$925*</span>
+                    </div>
+                    <div class="flex justify-between border-b pb-2 text-gray-600">
+                        <span>Setup & Logistics Fee</span>
+                        <span class="font-bold text-indigo-900">$125</span>
+                    </div>
+                </div>
+
+                <ul class="mt-8 space-y-3 text-sm text-gray-600">
+                    <li class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        All DJ Services + Full Karaoke Interface
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Wireless Microphone System (Up to 4 Mics)
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Intelligent Dance Floor Lighting
+                    </li>
+                </ul>
+                <p class="text-[10px] text-gray-400 mt-4">*Includes SUTD Fee</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="py-24 bg-white px-6 overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="absolute -top-4 -left-4 w-64 h-64 bg-pink-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
+                    <div class="absolute -bottom-8 -right-4 w-64 h-64 bg-indigo-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
+                    <div class="relative">
+                        <img src="AboutUs.png" alt="Vocal Vibes Team" class="rounded-3xl shadow-2xl z-10 relative object-cover h-[500px] w-full">
+                        <div class="absolute bottom-6 right-6 bg-white p-4 rounded-2xl shadow-lg z-20 hidden md:block">
+                            <p class="text-indigo-950 font-bold text-sm">Est. 2024</p>
+                            <p class="text-gray-500 text-xs tracking-widest uppercase">Vienna, VA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-4xl font-extrabold text-indigo-950 mb-6">Our Story: <span class="pink-accent italic">The Heart Behind the Mic</span></h2>
+                    <div class="space-y-6 text-gray-600 leading-relaxed text-lg">
+                        <p>
+                            Vocal Vibes of Vienna didn’t start in a boardroom—it started in a living room right here in Northern Virginia. We realized that while many companies rent out "gear," very few deliver an **experience**. 
+                        </p>
+                        <p>
+                            Our founders are lifelong music enthusiasts who believe that a great sound system is the heartbeat of any celebration. We saw a gap in the Vienna market for a truly premium, "White-Glove" service—one where the equipment is professional-grade, the software is seamless, and the host (you!) never has to worry about a single cable.
+                        </p>
+                        <p>
+                            Our passion is simple: **We provide the stage; you provide the soul.** Whether it’s a high-stakes corporate gala or a 40th birthday bash in a backyard, we treat every event like it’s our own headline show.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-10 grid grid-cols-2 gap-6 border-t border-gray-100 pt-8">
+                        <div>
+                            <p class="text-3xl font-extrabold text-indigo-950">50k+</p>
+                            <p class="text-sm text-gray-500 uppercase tracking-wide">Karaoke Hits</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-extrabold text-indigo-950">100%</p>
+                            <p class="text-sm text-gray-500 uppercase tracking-wide">Vienna Owned</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-20 text-center bg-white border-t border-gray-200">
+        <img src="logo.png" alt="Vocal Vibes Logo" class="h-60 w-auto mx-auto mb-6">
+        <h2 class="text-4xl font-extrabold text-indigo-950 mb-4 tracking-tighter">Ready to Rock, Vienna?!</h2>
+        <div class="flex flex-col md:flex-row gap-4 justify-center mt-10">
+            <a href="mailto:book@vocalvibes.com" class="btn-pink px-10 py-4 rounded-full font-bold">Email to Book</a>
+            <a href="tel:7035550123" class="border-2 border-indigo-950 text-indigo-950 px-10 py-4 rounded-full font-bold hover:bg-indigo-950 hover:text-white transition">Call (571) 730-7704</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            pagination: { el: ".swiper-pagination", clickable: true },
+            navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+            autoplay: { delay: 3500, disableOnInteraction: false },
+        });
+    </script>
+
+    <section class="py-12 bg-gray-50 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-xl font-extrabold text-indigo-950 mb-6 uppercase tracking-widest">Follow Us on Social Media</h3>
+            
+            <div class="flex justify-center gap-8 mb-10">
+                <a href="https://facebook.com" target="_blank" class="text-gray-400 hover:text-[#1877F2] transition-all transform hover:scale-110">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/vocalvibesofvienna" target="_blank" class="text-gray-400 hover:text-[#E4405F] transition-all transform hover:scale-110">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="https://tiktok.com" target="_blank" class="text-gray-400 hover:text-[#000000] transition-all transform hover:scale-110">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.9-.23-2.74.28-.73.44-1.22 1.18-1.35 2.01-.15 1.04.22 2.13.94 2.91.76.83 1.91 1.25 3.02 1.11 1.15-.09 2.22-.73 2.82-1.72.32-.59.44-1.27.45-1.94-.03-3.83-.02-7.66-.01-11.49z"/></svg>
+                </a>               
+            </div>
+
+            <p class="text-gray-400 text-xs tracking-widest uppercase">© 2026 Vocal Vibes of Vienna | Est. in Northern Virginia</p>
+        </div>
+    </section>
+</body>
+</html>
